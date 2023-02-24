@@ -277,7 +277,7 @@ public class HttpAuthHandler : MonoBehaviour
                     }
                     else
                     {
-                        string nombre = Lugar + 1 + "." + "Usuario:" + a.username + ",Puntaje:" + a.data.score;
+                        string nombre = Lugar + 1 + ". " + "User: " + a.username + "\n Score: " + a.data.score;
                         ListaScore[Lugar].text = nombre;
                         Lugar++;
                     }
